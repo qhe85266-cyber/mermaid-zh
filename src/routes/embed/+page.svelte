@@ -52,7 +52,7 @@
 </script>
 
 <svelte:head>
-  <title>Mermaid diagram</title>
+  <title>图澜图表 · Mermaid 驱动</title>
   <meta name="robots" content="noindex" />
 </svelte:head>
 

@@ -43,7 +43,7 @@
       renderer: mcMenuItem
     },
     {
-      label: 'Mermaid.js',
+      label: '上游 Mermaid.js 文档',
       icon: MermaidTailIcon,
       href: env.docsUrl,
       renderer: menuItem
@@ -81,7 +81,7 @@
       class: 'text-accent border-b-0',
       href: urls.current.mermaidChart({ medium: 'main_menu' }).home,
       icon: MermaidChartIcon,
-      label: 'Mermaid',
+      label: 'Mermaid 外部服务',
       onclick: () => logMermaidChartClick('mermaidHome'),
       renderer: mcMenuItem,
       sharesData: false

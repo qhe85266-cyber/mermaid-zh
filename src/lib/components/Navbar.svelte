@@ -25,14 +25,15 @@
     hidePromotion?: boolean;
   }
 
-  let { children, mobileToggle, hidePromotion = false }: Props = $props();
+  let { children, mobileToggle, hidePromotion = true }: Props = $props();
 
   type Links = ComponentProps<typeof DropdownNavMenu>['links'];
 
   const githubLinks: Links = [
-    { title: 'Mermaid JS', href: 'https://github.com/mermaid-js/mermaid' },
+    { title: '图澜项目', href: 'https://github.com/qhe85266-cyber/tulan-diagram-editor' },
+    { title: '上游 Mermaid 引擎', href: 'https://github.com/mermaid-js/mermaid' },
     {
-      title: 'Mermaid Live Editor',
+      title: '上游编辑器',
       href: 'https://github.com/mermaid-js/mermaid-live-editor'
     },
     {
@@ -86,9 +87,9 @@
     <MermaidIcon class="size-6" />
     <a href={resolve('/', {})} class="whitespace-nowrap text-accent">
       {#if !mobileToggle}
-        Mermaid
+        图澜
       {/if}
-      在线编辑器
+      图表编辑器
     </a>
   </div>
   <div

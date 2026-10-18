@@ -1,4 +1,8 @@
-# mermaid-zh · Mermaid 在线编辑器（简体中文本地版）
+# 图澜编辑器 · Tulan Diagrams
+
+![图澜原创品牌插图](assets/brand-cover.jpg)
+
+用文字梳理图表。基于 Mermaid Live Editor 的独立展示品牌与简体中文定制。
 
 ## 本项目主要解决什么问题
 
@@ -14,7 +18,7 @@
 本仓库在官方开源编辑器基础上，做了**简体中文界面本地化**（`zh-cn-local`），方便中文用户本地安装、演示和二次开发。
 
 > 上游项目： [mermaid-js/mermaid-live-editor](https://github.com/mermaid-js/mermaid-live-editor)（MIT License）  
-> 本仓库保留上游 `LICENSE`，中文改动仅针对界面文案，不改变 Mermaid 渲染逻辑。
+> 本仓库保留上游 `LICENSE`，包含中文界面与图澜品牌定制，不改变 Mermaid 渲染逻辑。
 
 ---
 
@@ -28,7 +32,7 @@
 | 导出 | PNG、SVG |
 | 本地运行 | `pnpm` 安装依赖后即可开发服务器预览 |
 
-截图见 [`docs/screenshots/`](docs/screenshots/)。
+封面为原创生成插图，不是运行截图；品牌改动见 [BRANDING.md](BRANDING.md)。
 
 ---
 
@@ -42,8 +46,8 @@
 ### 安装与运行
 
 ```bash
-git clone https://github.com/qhe85266-cyber/mermaid-zh.git
-cd mermaid-zh
+git clone https://github.com/qhe85266-cyber/tulan-diagram-editor.git
+cd tulan-diagram-editor
 pnpm install
 pnpm dev
 ```
